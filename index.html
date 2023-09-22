@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pix para o Kauan</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: #ccc;
+        }
+
+        .container{
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        button{
+            padding: 10px;
+            margin: 15px;
+            background-color: #f79f41;
+            border: 1px solid #8d8d8d;
+            border-radius: 5px;
+        }
+
+        button:hover{
+            background: #f0be8a;
+        }
+    </style>
+    <script>
+        function clicouNao(){
+            window.location.href = "nao.html";
+        }
+
+        function clicouSim(){
+            window.location.href = "sim.html";
+        }
+
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Você pode transferir um pixzinho pra mim?</h2>
+
+        <div>
+            <button onclick="clicouNao()">NÃO</button>
+            <button onclick="clicouSim()">SIM</button>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
